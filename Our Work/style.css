@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.cards{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.cards h1{
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.services{
+    display: flex;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    pad: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+img{
+   
+}
+
+.content > *{
+    flex: 1 1 100%;
+}
+
+.content :hover{
+    color: white;
+}
+
+.content :hover a{
+    border-color: white ;
+    background: white;
+}
+
+.content-1:hover{
+    border-color: turquoise;
+    background: rgb(22, 134, 179);
+}
+.content-1:hover a{
+    color:turquoise ;
+}
+.content-2:hover a{
+    color:turquoise ;
+}
+.content-2:hover{
+    border-color: turquoise;
+    background: rgb(23, 134, 179);
+}
+
+.content h2{
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.content p{
+    font-size: 17px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.content a{
+    margin: 22px 160px;
+    background: black;
+    color: white ;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    transition: .3 ease;
+}
+.content a:hover{
+    border-radius: 4px;
+}
+
+@media (max-width:900px){
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .content a{
+        margin: 22px 60px;
+    }
+}
+
+
+
+
+
