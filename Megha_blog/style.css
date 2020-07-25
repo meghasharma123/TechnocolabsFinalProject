@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .cardFixed{
-    position: fixed !important;
+    position: relative !important;
     width: auto !important;
 }
 .textBlog{
